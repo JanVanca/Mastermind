@@ -1,0 +1,45 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-1734d0aeea2-75f19652ab35b87b": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "localhost",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "MySQL Binaries",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql5-1734d0aeea2-75f19652ab35b87b": {
+			"gamestudio": {
+				":rating": {
+					"constraints": {
+						"VIRTUAL_PK": {
+							"type": "vpk",
+							"useAllColumns": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

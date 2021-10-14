@@ -1,0 +1,1 @@
+{"Pokus":[["RED","RED","RED","RED"]],"Pocet Kol":10,"Pocet farieb":4,"Aktualne kolo":2,"Excepted":["BLACK","YELLOW","WHITE","GREEN"],"Vysledky":[{"wrong":4,"won":false,"correctOnWrongPlace":0,"correct":0}]}
